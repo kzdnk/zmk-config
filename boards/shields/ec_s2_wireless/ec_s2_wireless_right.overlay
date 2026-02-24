@@ -3,7 +3,6 @@
 // instructions.
 
 #include "ec_s2_wireless.dtsi"
-
 #include <physical_layouts.dtsi>
 
 &default_transform {
