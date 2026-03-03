@@ -1,6 +1,0 @@
-// This file was generated from a template. Edit it to match your keyboard.
-// See https://zmk.dev/docs/development/hardware-integration/new-shield for more instructions.
-
-#include "../../../miryoku/custom_config.h"
-#include "../../../miryoku/mapping/36/ec_s2_wireless.h"
-#include "../../../miryoku/miryoku.dtsi"
