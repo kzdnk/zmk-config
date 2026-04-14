@@ -2,5 +2,6 @@
 // See https://zmk.dev/docs/development/hardware-integration/new-shield for more instructions.
 
 #include "../../../miryoku/custom_config.h"
-#include "../../../miryoku/mapping/36/ec_s2_wireless.h"
-#include "../../../miryoku/miryoku.dtsi"
+// #include "../../../miryoku/mapping/36/ec_s2_wireless.h"
+// #include "../../../miryoku/miryoku.dtsi"
+#include "./ec_s2_wireless_colmak.keymap"
