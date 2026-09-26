@@ -24,9 +24,14 @@
     symbols {
       display-name = "symbols";
       bindings = <
-        &kp GRAVE  &kp LT     &kp GT     &kp MINUS  &kp PIPE   &kp CARET  &kp LBRC   &kp RBRC   &kp DOLLAR  &kp SQT
-        &kp EXCL   &kp STAR   &kp SLASH  &kp EQUAL  &kp AMPS   &kp UNDER  &kp LPAR   &kp RPAR   &kp SEMI    &kp QMARK
-        &kp TILDE  &kp PLUS   &kp LBKT   &kp RBKT   &kp PRCNT  &kp NUHS   &kp COLON  &kp COMMA  &kp DOT     &kp AT
+        &kp GRAVE  &kp LT     &kp GT     &kp MINUS  &kp PIPE   
+        &kp CARET  &kp LBRC   &kp RBRC   &kp DOLLAR  &kp SQT
+
+        &mt LMETA  EXCL  &mt LALT  STAR   &mt LCTRL  SLASH  &mt LSHFT  EQUAL  &kp AMPS  
+        &kp UNDER        &mt LSHFT  LPAR  &mt LCTRL  RPAR   &mt LALT  SEMI    &mt LMETA  QMARK
+
+        &kp TILDE  &kp PLUS   &kp LBKT   &kp RBKT    &kp PRCNT  
+        &kp NUHS   &kp COLON  &kp COMMA  &kp DOT     &kp AT
 
                     &trans &trans &trans &trans &trans &trans 
       >;
