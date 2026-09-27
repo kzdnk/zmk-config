@@ -5,10 +5,10 @@
 / {  
   keymap {
     compatible = "zmk,keymap";
-    #define sym 0
-    #define nav 1
-    #define num 2
-    #define fun 3
+    #define sym 1
+    #define nav 2
+    #define num 3
+    #define fun 4
 
     default_layer {
       bindings = <
