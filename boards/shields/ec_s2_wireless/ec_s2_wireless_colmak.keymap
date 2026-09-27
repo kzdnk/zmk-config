@@ -21,7 +21,7 @@
       sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
     }; 
 
-    symbols {
+    sym {
       display-name = "symbols";
       bindings = <
         &kp GRAVE  &kp LT     &kp GT     &kp MINUS  &kp PIPE   
